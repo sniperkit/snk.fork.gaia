@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package store
 
 import (
@@ -5,8 +10,9 @@ import (
 	"time"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/gaia-pipeline/gaia"
 	"golang.org/x/crypto/bcrypt"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 // UserPut takes the given user and saves it

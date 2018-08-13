@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scheduler
 
 import (
 	"sync"
 
-	"github.com/gaia-pipeline/gaia"
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 // workload is a wrapper around a single job object.

@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package store
 
 import (
 	"encoding/json"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/gaia-pipeline/gaia"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 // CreatePipelinePut adds a pipeline which

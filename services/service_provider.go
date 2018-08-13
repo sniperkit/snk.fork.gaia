@@ -1,13 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package services
 
 import (
 	"reflect"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/plugin"
-	"github.com/gaia-pipeline/gaia/scheduler"
-	"github.com/gaia-pipeline/gaia/security"
-	"github.com/gaia-pipeline/gaia/store"
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/plugin"
+	"github.com/sniperkit/snk.fork.gaia/scheduler"
+	"github.com/sniperkit/snk.fork.gaia/security"
+	"github.com/sniperkit/snk.fork.gaia/store"
 )
 
 // storeService is an instance of store.

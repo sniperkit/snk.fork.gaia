@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pipeline
 
 import (
@@ -7,9 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/services"
 	"github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 var (

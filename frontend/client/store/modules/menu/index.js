@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import lazyLoading from './lazyLoading'
 
 // show: meta.label -> name

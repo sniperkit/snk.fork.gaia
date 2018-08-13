@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import Vue from 'vue'
 import axios from 'axios'
 import NProgress from 'vue-nprogress'

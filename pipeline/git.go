@@ -1,17 +1,22 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pipeline
 
 import (
 	"strings"
 	"sync"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-
-	"github.com/gaia-pipeline/gaia"
 	git "gopkg.in/src-d/go-git.v4"
+	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport/client"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport/http"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport/ssh"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 const (

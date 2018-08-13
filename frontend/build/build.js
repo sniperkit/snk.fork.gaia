@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // https://github.com/shelljs/shelljs
 'use strict'
 

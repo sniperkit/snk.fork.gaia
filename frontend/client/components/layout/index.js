@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 export Navbar from './Navbar'
 
 export Sidebar from './Sidebar'

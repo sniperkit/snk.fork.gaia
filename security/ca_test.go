@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package security
 
 import (
@@ -6,7 +11,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia"
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 func TestInitCA(t *testing.T) {

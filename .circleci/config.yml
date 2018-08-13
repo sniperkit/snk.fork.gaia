@@ -1,8 +1,11 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 version: 2
 
 jobs:
   integration_tests:
-    working_directory: /go/src/github.com/gaia-pipeline/gaia
+    working_directory: /go/src/github.com/sniperkit/snk.fork.gaia
     docker:
       - image: circleci/golang:1.10.3-browsers
     steps:
@@ -29,7 +32,7 @@ jobs:
             make compile_backend
             ./gaia-linux-amd64 --version
   compile:
-    working_directory: /go/src/github.com/gaia-pipeline/gaia
+    working_directory: /go/src/github.com/sniperkit/snk.fork.gaia
     docker:
       - image: circleci/golang:1.10.3-browsers
     steps:

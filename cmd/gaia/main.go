@@ -1,21 +1,26 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"crypto/rand"
 	"flag"
 	"fmt"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 
-	"io/ioutil"
-
 	"github.com/dgrijalva/jwt-go"
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/handlers"
-	"github.com/gaia-pipeline/gaia/pipeline"
-	"github.com/gaia-pipeline/gaia/services"
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/labstack/echo"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/handlers"
+	"github.com/sniperkit/snk.fork.gaia/pipeline"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 var (

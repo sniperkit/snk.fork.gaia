@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package handlers
 
 import (
@@ -7,9 +12,10 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/services"
 	"github.com/labstack/echo"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 const (

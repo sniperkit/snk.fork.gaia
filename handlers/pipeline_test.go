@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package handlers
 
 import (
@@ -11,14 +16,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gaia-pipeline/gaia/scheduler"
-
-	"github.com/gaia-pipeline/gaia/services"
-
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/pipeline"
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/labstack/echo"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/pipeline"
+	"github.com/sniperkit/snk.fork.gaia/scheduler"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 type mockScheduleService struct {

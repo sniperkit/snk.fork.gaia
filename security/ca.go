@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package security
 
 import (
@@ -15,7 +20,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gaia-pipeline/gaia"
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 const (

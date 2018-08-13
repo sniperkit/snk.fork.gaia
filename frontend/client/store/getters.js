@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 const pkg = state => state.pkg
 const app = state => state.app
 const device = state => state.app.device

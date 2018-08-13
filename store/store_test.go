@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package store
 
 import (
@@ -8,8 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gaia-pipeline/gaia"
 	uuid "github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 var store *BoltStore

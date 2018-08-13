@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pipeline
 
 import (
@@ -7,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gaia-pipeline/gaia"
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 func TestAppend(t *testing.T) {

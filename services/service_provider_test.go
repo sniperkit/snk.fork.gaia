@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package services
 
 import (
@@ -6,12 +11,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia/scheduler"
-	"github.com/gaia-pipeline/gaia/security"
-
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/store"
 	hclog "github.com/hashicorp/go-hclog"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/scheduler"
+	"github.com/sniperkit/snk.fork.gaia/security"
+	"github.com/sniperkit/snk.fork.gaia/store"
 )
 
 func TestStorageService(t *testing.T) {

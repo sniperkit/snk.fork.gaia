@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package store
 
 import (
@@ -6,7 +11,8 @@ import (
 	"path/filepath"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/gaia-pipeline/gaia"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 var (

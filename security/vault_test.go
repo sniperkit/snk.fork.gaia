@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package security
 
 import (
@@ -8,8 +13,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia"
 	hclog "github.com/hashicorp/go-hclog"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 type MockVaultStorer struct {

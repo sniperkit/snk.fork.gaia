@@ -1,22 +1,25 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package handlers
 
 import (
-	"testing"
-
 	"bytes"
-	"encoding/json"
-	"net/http"
-	"net/http/httptest"
-
-	"io/ioutil"
-
 	"crypto/rand"
 	"crypto/rsa"
+	"encoding/json"
+	"io/ioutil"
+	"net/http"
+	"net/http/httptest"
+	"testing"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/gaia-pipeline/gaia"
 	"github.com/hashicorp/go-hclog"
 	"github.com/labstack/echo"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 func TestUserLoginHMACKey(t *testing.T) {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package handlers
 
 import (
@@ -8,10 +13,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/services"
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/labstack/echo"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 func TestVaultWorkflowAddListDelete(t *testing.T) {

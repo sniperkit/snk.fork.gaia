@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package plugin
 
 import (
@@ -7,11 +12,12 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/scheduler"
-	"github.com/gaia-pipeline/gaia/security"
 	"github.com/gaia-pipeline/protobuf"
 	plugin "github.com/hashicorp/go-plugin"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/scheduler"
+	"github.com/sniperkit/snk.fork.gaia/security"
 )
 
 const (

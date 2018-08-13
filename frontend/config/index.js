@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 'use strict'
 
 // see http://vuejs-templates.github.io/webpack for documentation.

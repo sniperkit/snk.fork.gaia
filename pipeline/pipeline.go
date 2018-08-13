@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pipeline
 
 import (
@@ -11,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gaia-pipeline/gaia"
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 // BuildPipeline is the interface for pipelines which

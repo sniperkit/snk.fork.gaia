@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scheduler
 
 import (
@@ -9,11 +14,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/security"
-	"github.com/gaia-pipeline/gaia/store"
 	hclog "github.com/hashicorp/go-hclog"
 	uuid "github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/security"
+	"github.com/sniperkit/snk.fork.gaia/store"
 )
 
 type PluginFake struct{}

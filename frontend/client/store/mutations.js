@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 export const setSession = (state, session) => {
   state.session = session
 }

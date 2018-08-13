@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package handlers
 
 import (
@@ -6,11 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/pipeline"
-	"github.com/gaia-pipeline/gaia/services"
 	"github.com/labstack/echo"
 	uuid "github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/pipeline"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 const (

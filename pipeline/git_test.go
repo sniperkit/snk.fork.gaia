@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pipeline
 
 import (
@@ -8,8 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia"
 	hclog "github.com/hashicorp/go-hclog"
+
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 func TestGitCloneRepo(t *testing.T) {

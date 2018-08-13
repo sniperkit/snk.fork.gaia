@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import * as types from './mutation-types'
 
 export const toggleSidebar = ({ commit }, config) => {

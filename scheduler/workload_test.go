@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scheduler
 
 import (
@@ -5,7 +10,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gaia-pipeline/gaia"
+	"github.com/sniperkit/snk.fork.gaia"
 )
 
 func TestNewWorkload(t *testing.T) {

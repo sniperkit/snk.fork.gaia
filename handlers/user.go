@@ -1,16 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package handlers
 
 import (
+	"crypto/rsa"
 	"net/http"
 	"time"
 
+	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo"
 
-	"crypto/rsa"
-
-	"github.com/dgrijalva/jwt-go"
-	"github.com/gaia-pipeline/gaia"
-	"github.com/gaia-pipeline/gaia/services"
+	"github.com/sniperkit/snk.fork.gaia"
+	"github.com/sniperkit/snk.fork.gaia/services"
 )
 
 // jwtExpiry defines how long the produced jwt tokens
